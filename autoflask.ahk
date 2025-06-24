@@ -20,7 +20,7 @@ SendMode Input
 ; See https://www.autohotkey.com/docs/KeyList.htm for full list of accepted keys
 ; map your flasks {k:v, ..} where k your flask position and v is
 ; the key associated with the flask.
-flasks := {1:1, 2:2, 3:3, 4:4, 5:"{Space}"}
+flasks := {1:1, 2:2, 3:3, 4:4, 5:"{XButton1}"}
 hp_flask := 5 ; hp flask position
 hp_threshold := 30 ; percentage of life left at which to trigger hp flask
 toggle_key := "F2" ; key to toggle autoflask script on/off
